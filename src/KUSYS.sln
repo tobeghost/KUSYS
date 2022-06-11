@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Application", "KUSYS.Application\KUSYS.Application.csproj", "{E3D8C4C3-64A4-4B03-A10A-B6285ADE38CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Application", "KUSYS.Application\KUSYS.Application.csproj", "{E3D8C4C3-64A4-4B03-A10A-B6285ADE38CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Domain", "KUSYS.Domain\KUSYS.Domain.csproj", "{B47A3A23-7FFC-4265-9AAC-86791206E851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Domain", "KUSYS.Domain\KUSYS.Domain.csproj", "{B47A3A23-7FFC-4265-9AAC-86791206E851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Infrastructure", "KUSYS.Infrastructure\KUSYS.Infrastructure.csproj", "{58913236-3503-4DDC-9698-1A52A5BE82F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KUSYS.Infrastructure", "KUSYS.Infrastructure\KUSYS.Infrastructure.csproj", "{58913236-3503-4DDC-9698-1A52A5BE82F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUSYS.Presentation", "KUSYS.Presentation\KUSYS.Presentation.csproj", "{F9D12E41-403F-45E1-A3C8-920199BDFA13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{58913236-3503-4DDC-9698-1A52A5BE82F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58913236-3503-4DDC-9698-1A52A5BE82F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58913236-3503-4DDC-9698-1A52A5BE82F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D12E41-403F-45E1-A3C8-920199BDFA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D12E41-403F-45E1-A3C8-920199BDFA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D12E41-403F-45E1-A3C8-920199BDFA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D12E41-403F-45E1-A3C8-920199BDFA13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
